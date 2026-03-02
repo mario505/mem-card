@@ -42,7 +42,7 @@ body {
  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.game-header {
+.game-header h1{
   font-size: 2.5rem;
   color: #fff;
   text-align: center;
@@ -51,8 +51,8 @@ body {
 .stats {
   display: flex;
   gap: 30px;
- 
-  
+  width: 100%;
+  align-items: center;
 }
 
 .stat-item {
@@ -181,7 +181,7 @@ body {
   transform: scale(0.9);
 }
 
-.card-flipped .card-back {
+.card.flipped .card-back {
   opacity: 1;
 }
 
